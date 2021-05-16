@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * Plugin Name:       Yume Store
  * Description:       Plugin para acesso a API de cursos
@@ -10,26 +11,54 @@
  * Text Domain: acesso_api_cursos
  */
 
-    if(!function_exists('add_action')){
-        echo _('O plugin não pode ser passado direto');
-    }
+include_once 'include/head.php';
 
-    require_once(dirname(__FILE__).'/model/cursos.viewmodel.php');
 
-    function shortCodeListaCursos(){
-        $cursos = new Cursos();
+if (!function_exists('add_action')) {
+    echo _('O plugin não pode ser passado direto');
+}
 
-        foreach ($cursos->getCursos() as $key) {
-            echo "ID Curso: {$key->course_id}";
-            echo '<br>';
-            echo "Nome Curso: {$key->course_title}";
-            echo '<br>';
-            echo "Descrição: {$key->course_description}";
-            echo "<br>";
-            echo "<br>";
-            echo "<br>";
-        }
-    }
+require_once(dirname(__FILE__) . '/model/cursos.viewmodel.php');
 
-    add_shortcode('lista-cursos', 'shortCodeListaCursos');
- ?>
+function shortCodeListaCursos()
+{
+    $cursos = new Cursos();
+?>
+    <table class="table table-dark">
+        <thead>
+            <th>ID Curso</th>
+            <th>Nome Curso</th>
+            <th></th>
+        </thead>
+        <tbody>
+            <?php
+            $curso_enviado = filter_input(INPUT_POST, 'AdicionarCurso', FILTER_SANITIZE_STRING);
+            $dados_curso = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+            if($dados_curso){
+               $cursos->insertCoursePost($dados_curso['courseTitle'], $dados_curso['courseDescription']);
+            }
+            
+            foreach ($cursos->getCursos() as $key) {
+            ?>
+                <tr>
+                    <th><?php echo $key->course_id ?></th>
+                    <th><?php echo $key->course_title ?></th>
+                    <th>
+                        <form name="addCourse" method="POST">
+                            <input type="hidden" name="courseTitle" value="<?php echo $key->course_title; ?>" />
+                            <input type="hidden" name="courseDescription" value="<?php echo $key->course_description; ?>" />
+                            <input type="submit" name="addCourse" value="AdicionarCurso" />
+                        </form>
+                    </th>
+                </tr>
+            <?php
+            }
+            ?>
+
+        </tbody>
+    </table>
+<?php
+}
+
+add_shortcode('lista-cursos', 'shortCodeListaCursos');
+?>
