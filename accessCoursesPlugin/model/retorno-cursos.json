@@ -1,0 +1,641 @@
+{
+    "STATE": 1,
+    "TOTAL_PAGES": 53,
+    "CURRENT_PAGE": 1,
+    "COURSES": [
+        {
+            "course_id": 55387,
+            "course_company_id": 1,
+            "course_title": "Curso de .NET na Pr\u00e1tica",
+            "course_description": "Aborda os recursos da ferramenta de desenvolvimento de aplica\u00e7\u00f5es .Net da Microsoft como o: encapsulamento, heran\u00e7a, interfaces, classes abstratas e muito mais.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "net-na-pratica",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 18,
+            "course_category_slug": "programacao-e-desenvolvimento",
+            "course_category_title": "Programa\u00e7\u00e3o e Desenvolvimento",
+            "course_rating": 4,
+            "course_students": 474,
+            "course_captions": [],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/9jnFGp9nKDw",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_55387.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/55387\/55387-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/55387\/55387-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/55387\/55387-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Alexandre Arruda Jacobino",
+                "teacher_description": "Analista programador s\u00eanior, com conhecimento em Asp,Visual Basic 5 e 6, VbScript,Html,Sql Server 7.0,2000,2008,2010,Windows Dna,COM+,Mts,XML, XSL,JavaScript,Crystal Reports,Word,Excel,Power Point,Access,Outlook Express,Interdev,DCOM, COMTI,Biometria,SmartCard,VBA em Word e Excel,PL\/SQL,Visual Workflow,File Net Panagon, Asp.Net,Vb.Net,C#, Erwin, Onbase 5.2,Onbase Workflow,Cria\u00e7\u00e3o de prodecures,triggers,views,constrains,JQuery,UML,diagrama de caso de uso,diagrama de classe,OOP,DFD,Entity Framework,Bootstrap,MVC,Oracle 8,10,11g,CSS,Windows service,WCF,Enterprise Architect,Ajax, Reporting Services 2005, NHibernate, preferencialmente usando Active Record, Metodologia Agil,RUP,Linq to Sql, Linq to object.,Power Designer,Clear Case,Informix,DB2,NOSQL,SVN,TFS,Visual Source Safe, an\u00e1lise de dados,levantamento de necessidades para constru\u00e7\u00e3o.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/55387.jpg"
+            }
+        },
+        {
+            "course_id": 54828,
+            "course_company_id": 1,
+            "course_title": "Curso de 3D Game Studio na Pr\u00e1tica",
+            "course_description": "Voc\u00ea aprende a trabalhar com diversos programas de modelagem em 3D para a produ\u00e7\u00e3o de ambientes de v\u00eddeo games em diferentes plataformas.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "3d-game-studio-pratica",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 1,
+            "course_category_slug": "3d-e-games",
+            "course_category_title": "3D e Games",
+            "course_rating": 4.5,
+            "course_students": 3916,
+            "course_captions": [],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/hwykyLGhvcs",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_54828.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/54828\/54828-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/54828\/54828-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/54828\/54828-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Edward Silva",
+                "teacher_description": "Bacharel em ci\u00eancias da computa\u00e7\u00e3o, com mais de vinte anos de experi\u00eancia na \u00e1rea de games.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/54828.jpg"
+            }
+        },
+        {
+            "course_id": 60728,
+            "course_company_id": 1,
+            "course_title": "Curso de Acessibilidade Arquitet\u00f4nica",
+            "course_description": "Apresenta normas e leis (principalmente a norma NBR 9050, que \u00e9 a norma t\u00e9cnica da acessibilidade), medidas corretas, simbologia, poss\u00edveis puni\u00e7\u00f5es e muito mais.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "acessibilidade-arquitetonica",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 42,
+            "course_category_slug": "arquitetura-e-engenharia",
+            "course_category_title": "Arquitetura e Engenharia",
+            "course_rating": 4.5,
+            "course_students": 721,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/nV_xZqUaZWE",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_60728.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/60728\/60728-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/60728\/60728-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/60728\/60728-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Thiago Caro Cenjor",
+                "teacher_description": "Consultor de Acessibilidade e de Educa\u00e7\u00e3o Inclusiva. Participa de diversas competi\u00e7\u00f5es, como automobilismo (kart), canoagem, motocross adaptada e t\u00eanis adaptado. Atua, ainda, como modelo, mestre de cerimonia e palestrante.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/60728.jpg"
+            }
+        },
+        {
+            "course_id": 50935,
+            "course_company_id": 1,
+            "course_title": "Curso de Actionscript 3.0",
+            "course_description": "Explica e ensinar as principais ferramentas e fun\u00e7\u00f5es do Actionscripit 3.0 para a programa\u00e7\u00e3o de sites e jogos. Nesse curso voc\u00ea vai visualizar recursos importantes desse software como, por exemplo, a declara\u00e7\u00e3o de vari\u00e1veis e condicionais e o trabalhado com as propriedades dos objetos, como a sua opacidade, visibilidade e rota\u00e7\u00e3o.\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "actionscript-3-0",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 18,
+            "course_category_slug": "programacao-e-desenvolvimento",
+            "course_category_title": "Programa\u00e7\u00e3o e Desenvolvimento",
+            "course_rating": 4,
+            "course_students": 156,
+            "course_captions": [],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/rgWLZc7EDaA",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_50935.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/50935\/50935-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/50935\/50935-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/50935\/50935-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "",
+                "teacher_description": "",
+                "teacher_image": "https:\/\/www.iped.com.br"
+            }
+        },
+        {
+            "course_id": 66741,
+            "course_company_id": 1,
+            "course_title": "Curso de Administra\u00e7\u00e3o",
+            "course_description": "Explica a se comunicar melhor, desenvolver um planejamento estrat\u00e9gico competitivo,a aproveitar todas as oportunidades da economia informa\u00e7\u00e3o, vai conhecer novas formas de empreender e muito mais.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "administracao",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 2,
+            "course_category_slug": "administracao",
+            "course_category_title": "Administra\u00e7\u00e3o",
+            "course_rating": 4.5,
+            "course_students": 12395,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/PAuZdywV2QU",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_66741.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/66741\/66741-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/66741\/66741-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/66741\/66741-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Marcelo Sinelli",
+                "teacher_description": "An\u00e1lise, elabora\u00e7\u00e3o e implanta\u00e7\u00e3o de plano de marketing e estrat\u00e9gia de Comunica\u00e7\u00e3o, an\u00e1lise e pesquisa de mercado, cria\u00e7\u00e3o e posicionamento da marca no mercado de Pequenas e M\u00e9dias Empresas.\r\n Palestrante de temas relacionados a Empreendedorismo, Vendas, Marketing,Planejamento Estrat\u00e9gico e Gest\u00e3o de Neg\u00f3cios.\r\n Docente no MBA de Gest\u00e3o Estrat\u00e9gica de Neg\u00f3cios da Universidade Cruzeiro do sul.\r\n Gerenciamento de clientes corporativos, como Petrobr\u00e1s, Eletropaulo, BankBoston, Rhodia e Rolls-Royce.\r\nPorta voz do Sebrae\/SP nos temas de Marketing e Estrat\u00e9gia.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/66741.jpg"
+            }
+        },
+        {
+            "course_id": 24222,
+            "course_company_id": 1,
+            "course_title": "Curso de Administra\u00e7\u00e3o Estrat\u00e9gica",
+            "course_description": "Voc\u00ea aprende sobre o planejamento e implementa\u00e7\u00e3o de estrat\u00e9gias com foco nos interesses da empresa. Al\u00e9m disso, aprenda m\u00e9todos, sistemas e processos de gest\u00e3o. E estude como promover melhorias com as mudan\u00e7as.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "administracao-estrategica",
+            "course_free": 0,
+            "course_format": 2,
+            "course_category_id": 2,
+            "course_category_slug": "administracao",
+            "course_category_title": "Administra\u00e7\u00e3o",
+            "course_rating": 4.5,
+            "course_students": 15656,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "http:\/\/youtu.be\/V8xzou4ubHk",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_24222.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/24222\/24222-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/24222\/24222-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/24222\/24222-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "",
+                "teacher_description": "",
+                "teacher_image": "https:\/\/www.iped.com.br"
+            }
+        },
+        {
+            "course_id": 69425,
+            "course_company_id": 1,
+            "course_title": "Curso de Administra\u00e7\u00e3o Hospitalar na Pr\u00e1tica",
+            "course_description": "Explica sobre os tipos de organiza\u00e7\u00f5es de sa\u00fade, como fazer a contrata\u00e7\u00e3o de pessoas, gest\u00e3o financeira e relat\u00f3rios gerenciais, quais os documentos, obriga\u00e7\u00f5es e acredita\u00e7\u00f5es necess\u00e1rios para uma institui\u00e7\u00e3o de sa\u00fade, e muito mais.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "administracao-hospitalar",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 15,
+            "course_category_slug": "medicina",
+            "course_category_title": "Medicina",
+            "course_rating": 4.5,
+            "course_students": 782,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/XAg78qIsE7A",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_69425.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/69425\/69425-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/69425\/69425-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/69425\/69425-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Daniella Sanfilippo",
+                "teacher_description": "Daniella Sanfilippo \u00e9 especialista em administra\u00e7\u00e3o hospitalar, com \u00eanfase em gest\u00e3o de neg\u00f3cios, consultoria e relacionamento ao cliente, e auditoria de contas m\u00e9dicas. Tem experi\u00eancia em cl\u00ednica geral, auditoria, administra\u00e7\u00e3o hospitalar e consultorias interna e externa.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/69425.jpg"
+            }
+        },
+        {
+            "course_id": 59790,
+            "course_company_id": 1,
+            "course_title": "Curso de Administra\u00e7\u00e3o para Condom\u00ednios",
+            "course_description": "Voc\u00ea aprende qual a documenta\u00e7\u00e3o necess\u00e1ria para a forma\u00e7\u00e3o de um condom\u00ednio, como administr\u00e1-lo, qual o melhor tipo de administra\u00e7\u00e3o, a inadimpl\u00eancia, as a\u00e7\u00f5es judiciais, as assembleias de condom\u00ednio, as puni\u00e7\u00f5es e toda a legisla\u00e7\u00e3o necess\u00e1ria.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "administracao-para-condominios",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 2,
+            "course_category_slug": "administracao",
+            "course_category_title": "Administra\u00e7\u00e3o",
+            "course_rating": 4.5,
+            "course_students": 1041,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/gsWasUgOwS4",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_59790.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/59790\/59790-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/59790\/59790-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/59790\/59790-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Amidr\u00edcia Vasconcelos Fulini",
+                "teacher_description": "Presidente da Comiss\u00e3o de A\u00e7\u00e3o Social da 110\u00aa Subse\u00e7\u00e3o da Ordem dos Advogados do Brasil \u0096 S\u00e3o Miguel Pta.  \r\nMembro da comiss\u00e3o Previdenci\u00e1ria e de Direito do Consumidor da 110\u00aa Subse\u00e7\u00e3o da Ordem dos Advogados do Brasil \u0096 S\u00e3o Miguel Paulista.  \r\nProfissional com mais de 15 anos de viv\u00eancia profissional jur\u00eddico e administrativo, em escrit\u00f3rio de advocacia, empresa privada, empresas de presta\u00e7\u00e3o de servi\u00e7os e administra\u00e7\u00e3o de condom\u00ednio.\r\nP\u00f3s graduada em direito tribut\u00e1rio. \r\nExtens\u00e3o em direito eclesi\u00e1stico.\r\nGestora em administradora de condom\u00ednios.\r\nParticipante, como comentarista sobre direito de fam\u00edlia, no Programa Extremo Leste na r\u00e1dio Integra\u00e7\u00e3o.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/59790.jpg"
+            }
+        },
+        {
+            "course_id": 67049,
+            "course_company_id": 1,
+            "course_title": "Curso de Administra\u00e7\u00e3o: Tipo de Lideran\u00e7a",
+            "course_description": "Ensina Tipos de lideran\u00e7a, O poder na pr\u00e1tica, O que faz um bom l\u00edder?, Como medir resultados e Como avaliar resultados.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 5 horas de carga hor\u00e1ria.",
+            "course_slug": "administracao-tipo-lideranca",
+            "course_free": 1,
+            "course_format": 1,
+            "course_category_id": 2,
+            "course_category_slug": "administracao",
+            "course_category_title": "Administra\u00e7\u00e3o",
+            "course_rating": 4.5,
+            "course_students": 10442,
+            "course_captions": [],
+            "course_hours": 5,
+            "course_video": "https:\/\/youtu.be\/PAuZdywV2QU",
+            "course_parent": 66741,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_67049.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/67049\/67049-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/67049\/67049-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/67049\/67049-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Macelo Sinelli",
+                "teacher_description": "An\u00e1lise, elabora\u00e7\u00e3o e implanta\u00e7\u00e3o de plano de marketing e estrat\u00e9gia de Comunica\u00e7\u00e3o, an\u00e1lise e pesquisa de mercado, cria\u00e7\u00e3o e posicionamento da marca no mercado de Pequenas e M\u00e9dias Empresas.\r\n Palestrante de temas relacionados a Empreendedorismo, Vendas, Marketing,Planejamento Estrat\u00e9gico e Gest\u00e3o de Neg\u00f3cios.\r\n Docente no MBA de Gest\u00e3o Estrat\u00e9gica de Neg\u00f3cios da Universidade Cruzeiro do sul.\r\n Gerenciamento de clientes corporativos, como Petrobr\u00e1s, Eletropaulo, BankBoston, Rhodia e Rolls-Royce.\r\nPorta voz do Sebrae\/SP nos temas de Marketing e Estrat\u00e9gia.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/66741.jpg"
+            }
+        },
+        {
+            "course_id": 51071,
+            "course_company_id": 1,
+            "course_title": "Curso de Adobe Muse CC",
+            "course_description": "Voc\u00ea aprende Nesse curso voc\u00ea aprender\u00e1 a criar sites sem usar nenhum tipo de programa\u00e7\u00e3o para dispositivos como: desktop, tablet e smartphone de maneira f\u00e1cil, r\u00e1pida e profissional. Voc\u00ea poder\u00e1 trabalhar com imagens de fundo em seu site usando o recurso Scale to Fill que posiciona a imagem adequadamente na tela ou Scroll que proporciona efeito de rolagem na imagem.\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "adobe-muse-CC",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 18,
+            "course_category_slug": "programacao-e-desenvolvimento",
+            "course_category_title": "Programa\u00e7\u00e3o e Desenvolvimento",
+            "course_rating": 4.5,
+            "course_students": 189,
+            "course_captions": [],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/-FGiu7ECBzw",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_51071.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/51071\/51071-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/51071\/51071-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/51071\/51071-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "",
+                "teacher_description": "",
+                "teacher_image": "https:\/\/www.iped.com.br"
+            }
+        },
+        {
+            "course_id": 50967,
+            "course_company_id": 1,
+            "course_title": "Curso de After Effects CS5",
+            "course_description": "Voc\u00ea aprende todas as fun\u00e7\u00f5es e recursos do after effects cs5, al\u00e9m de criar anima\u00e7\u00f5es em 3D utilizando somente esse software. Aqui voc\u00ea vai aprender as principais ferramentas e fun\u00e7\u00f5es desse software, desde a importa\u00e7\u00e3o dos arquivos e os componentes da \u00e1rea de trabalho do after effects, at\u00e9 os conceitos de anima\u00e7\u00e3o que podem ser feitos, como a estabiliza\u00e7\u00e3o de movimentos, os cortes de v\u00eddeo, o trabalho com \u00e1udio e a cria\u00e7\u00e3o dos objetos em 3D.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "after-effects-cs5",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 18,
+            "course_category_slug": "programacao-e-desenvolvimento",
+            "course_category_title": "Programa\u00e7\u00e3o e Desenvolvimento",
+            "course_rating": 4,
+            "course_students": 394,
+            "course_captions": [],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_50967.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/50967\/50967-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/50967\/50967-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/50967\/50967-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "",
+                "teacher_description": "",
+                "teacher_image": "https:\/\/www.iped.com.br"
+            }
+        },
+        {
+            "course_id": 62967,
+            "course_company_id": 1,
+            "course_title": "Curso de Ajustes Finos do Computador com Windows 7 e 8",
+            "course_description": "Explica Os Ajustes Finos do Computador.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 2 horas de carga hor\u00e1ria.",
+            "course_slug": "ajustes-finos-computador-windows-7-8",
+            "course_free": 1,
+            "course_format": 1,
+            "course_category_id": 14,
+            "course_category_slug": "informatica",
+            "course_category_title": "Inform\u00e1tica",
+            "course_rating": 4.5,
+            "course_students": 1264,
+            "course_captions": [],
+            "course_hours": 2,
+            "course_video": "http:\/\/youtu.be\/gbGLK4YzJho",
+            "course_parent": 50806,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_62967.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/62967\/62967-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/62967\/62967-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/62967\/62967-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Grupo IPED",
+                "teacher_description": "Fundada em 2001 e posicionada no mercado como uma verdadeira empresa de educa\u00e7\u00e3o, o iPED - Instituto Polit\u00e9cnico de Ensino a Dist\u00e2ncia - investe na forma\u00e7\u00e3o de valores morais e sociais. A empresa tem a miss\u00e3o de promover a educa\u00e7\u00e3o de maneira democr\u00e1tica levando ao mercado mais de 1000 op\u00e7\u00f5es de cursos, em 55 \u00e1reas e presente em mais de 60 pa\u00edses.\r\n\r\nO iPED, que j\u00e1 formou mais de 5 milh\u00f5es de alunos ao longo de sua hist\u00f3ria, se consolida como um dos principais meios de educa\u00e7\u00e3o online do Brasil.",
+                "teacher_image": "https:\/\/www.iped.com.br"
+            }
+        },
+        {
+            "course_id": 60592,
+            "course_company_id": 1,
+            "course_title": "Curso de Aleitamento Materno",
+            "course_description": "Voc\u00ea aprende anatomia e fisiologia da amamenta\u00e7\u00e3o, os tipos de aleitamento materno, t\u00e9cnincas de amamenta\u00e7\u00e3o, componentes do leite e muito mais.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "aleitamento-materno1",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 16,
+            "course_category_slug": "nutricao",
+            "course_category_title": "Nutri\u00e7\u00e3o",
+            "course_rating": 4.5,
+            "course_students": 756,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/KACuDrQC2gg",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_60592.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/60592\/60592-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/60592\/60592-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/60592\/60592-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Joseane de Oliveira Frade",
+                "teacher_description": "Graduada em Enfermagem pela Faculdade de Ci\u00eancias M\u00e9dicas da Santa Casa de S\u00e3o Paulo. P\u00f3s-graduada em Enfermagem Obst\u00e9trica pela Faculdade Santa Marcelina e em Enfermagem: Sa\u00fade da Fam\u00edlia e Comunidade pelas Faculdades Metropolitanas Unidas (FMU).\r\nAl\u00e9m de cursos de especializa\u00e7\u00e3o na \u00e1rea, possui mais de 9 anos de experi\u00eancia como enfermeira obstetra.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/60592.jpg"
+            }
+        },
+        {
+            "course_id": 63326,
+            "course_company_id": 1,
+            "course_title": "Curso de Aleitamento Materno: Iniciando a Amamenta\u00e7\u00e3o",
+            "course_description": "Voc\u00ea aprende Assist\u00eancia no p\u00f3s-parto, Iniciando a amamenta\u00e7\u00e3o, Cuidado com as mamas, Cuidados com o rec\u00e9m-nascido, Nutri\u00e7\u00e3o materna, Retorno da m\u00e3e ao trabalho e Armazenamento do leite materno.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 10 horas de carga hor\u00e1ria.",
+            "course_slug": "aleitamento-materno-iniciando-amamentacao",
+            "course_free": 1,
+            "course_format": 1,
+            "course_category_id": 16,
+            "course_category_slug": "nutricao",
+            "course_category_title": "Nutri\u00e7\u00e3o",
+            "course_rating": 4.5,
+            "course_students": 1439,
+            "course_captions": [],
+            "course_hours": 10,
+            "course_video": "https:\/\/youtu.be\/KACuDrQC2gg",
+            "course_parent": 60592,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_63326.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/63326\/63326-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/63326\/63326-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/63326\/63326-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Joseane de Oliveira Frade",
+                "teacher_description": "Graduada em Enfermagem pela Faculdade de Ci\u00eancias M\u00e9dicas da Santa Casa de S\u00e3o Paulo. P\u00f3s-graduada em Enfermagem Obst\u00e9trica pela Faculdade Santa Marcelina e em Enfermagem: Sa\u00fade da Fam\u00edlia e Comunidade pelas Faculdades Metropolitanas Unidas (FMU).\r\nAl\u00e9m de cursos de especializa\u00e7\u00e3o na \u00e1rea, possui mais de 9 anos de experi\u00eancia como enfermeira obstetra.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/60592.jpg"
+            }
+        },
+        {
+            "course_id": 70276,
+            "course_company_id": 1,
+            "course_title": "Curso de Alfabetiza\u00e7\u00e3o e Letramento",
+            "course_description": "Voc\u00ea vai aprender sobre as metodologias da alfabetiza\u00e7\u00e3o de formas simples, com dicas pr\u00e1ticas e preparando o aluno a aplicar os ensinamentos de\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "alfabetizacao",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 8,
+            "course_category_slug": "educacao-e-pedagogia",
+            "course_category_title": "Educa\u00e7\u00e3o e Pedagogia",
+            "course_rating": 4.5,
+            "course_students": 3145,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/qLPYR58pdkc",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_70276.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/70276\/70276-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/70276\/70276-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/70276\/70276-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Marcelo Reis Clemente",
+                "teacher_description": "Profissional generalista, com experi\u00eancia em Doc\u00eancia e em Treinamento e Desenvolvimento de Pessoas. Especialista em Desenvolvimento Cognitivo e Aprendizagem Mediada pelo Feuerstein Institute - Jerusal\u00e9m\/Israel.\r\nProfessor Universit\u00e1rio em cursos de gradua\u00e7\u00e3o e p\u00f3s gradua\u00e7\u00e3o das \u00e1reas de Administra\u00e7\u00e3o de Empresas, Pedagogia e Psicopedagogia. Experi\u00eancia em Coordena\u00e7\u00e3o Pedag\u00f3gica e Orienta\u00e7\u00e3o Educacional. Preletor em cursos da \u00e1rea de Educa\u00e7\u00e3o, Educa\u00e7\u00e3o Corporativa e na \u00e1rea da Sa\u00fade.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/70276.jpg"
+            }
+        },
+        {
+            "course_id": 65618,
+            "course_company_id": 1,
+            "course_title": "Curso de Alfajor",
+            "course_description": "Apresenta Alfajor Tradicional, Alfajor de Pistache, Alfajor de Caf\u00e9 e Alfajor Diet.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 5 horas de carga hor\u00e1ria.",
+            "course_slug": "alfajor",
+            "course_free": 1,
+            "course_format": 1,
+            "course_category_id": 45,
+            "course_category_slug": "doces-confeitaria",
+            "course_category_title": "Doces e Confeitaria",
+            "course_rating": 4.5,
+            "course_students": 534,
+            "course_captions": [],
+            "course_hours": 5,
+            "course_video": "https:\/\/youtu.be\/v1qLiiyVoX8",
+            "course_parent": 53964,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_65618.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/65618\/65618-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/65618\/65618-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/65618\/65618-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Leticia Orenga",
+                "teacher_description": "Formada em Gastronomia pelo SENAC e em Escultura de A\u00e7\u00facar pela academia Aroma (Roma \u0096 It\u00e1lia).\r\nParticipante de dois concursos nacionais, um de confeitaria e um de chocolateria; Al\u00e9m de representar o Brasil no Campeonato Mundial de Confeitaria Junior, na It\u00e1lia.\r\nTrabalhei desenvolvendo receitas, videos e colunas te\u00f3ricas para a Revista Padaria 2000 e seu canal no youtube.\r\nParticipei do programa Que Seja Doce 2\u00ba temp e do programa Mulheres.\r\nHoje em dia dou diversos cursos , para organiza\u00e7\u00f5es e at\u00e9 mesmo particulares; alem de cuidar do meu micro neg\u00f3cios de doces e salgados , Orengas\u0092 Cook.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/53964.jpg"
+            }
+        },
+        {
+            "course_id": 63712,
+            "course_company_id": 1,
+            "course_title": "Curso de Alongamento de C\u00edlios",
+            "course_description": "Explica Alongamento de C\u00edlios - Coloca\u00e7\u00e3o de C\u00edlios Posti\u00e7os, Alongamento de C\u00edlios - C\u00edlios em Tufinhos e T\u00e9cnicas de Alongamento de C\u00edlios - T\u00e9cnica Fio a Fio.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 2 horas de carga hor\u00e1ria.",
+            "course_slug": "alongamento-cilios",
+            "course_free": 1,
+            "course_format": 1,
+            "course_category_id": 9,
+            "course_category_slug": "estetica-e-beleza",
+            "course_category_title": "Est\u00e9tica e Beleza",
+            "course_rating": 4.5,
+            "course_students": 7421,
+            "course_captions": [],
+            "course_hours": 2,
+            "course_video": "https:\/\/youtu.be\/oFW",
+            "course_parent": 52164,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_63712.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/63712\/63712-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/63712\/63712-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/63712\/63712-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Mayumi Moriyama",
+                "teacher_description": "Designer de Sobrancelhas, esteticista e empres\u00e1ria. Est\u00e1 no ramo da est\u00e9tica h\u00e1 mais de 7 anos.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/52164.jpg"
+            }
+        },
+        {
+            "course_id": 53546,
+            "course_company_id": 1,
+            "course_title": "Curso de Amigurumi",
+            "course_description": "Voc\u00ea aprende sobre a t\u00e9cnica japonesa do amigurumi, desde a anatomia do amigurumi, pontos b\u00e1sicos do croch\u00ea at\u00e9 aprender a fazer receitas de sapinho, coruja, sushis e muito mais.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "amigurumi",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 40,
+            "course_category_slug": "artesanato",
+            "course_category_title": "Artesanato",
+            "course_rating": 4,
+            "course_students": 968,
+            "course_captions": [],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/S4a0YKOKHYQ",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_53546.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/53546\/53546-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/53546\/53546-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/53546\/53546-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Marcela Lima",
+                "teacher_description": "Vem aprimorando o seus conhecimentos na t\u00e9cnica de Amigurumi desde os seus 12 anos.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/53546.jpg"
+            }
+        },
+        {
+            "course_id": 83075,
+            "course_company_id": 1,
+            "course_title": "Curso de Analisando Vendas: KPIs",
+            "course_description": "Voc\u00ea desenvolver\u00e1 um olhar estrat\u00e9gico sobre cada etapa do funil comercial e os pontos que merecem maior aten\u00e7\u00e3o, analisar\u00e1 os procedimentos gerenciais e operacionais, descobrir\u00e1 os principais indicadores utilizados e muito mais. \r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "analisando-vendas-kpis",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 44,
+            "course_category_slug": "vendas",
+            "course_category_title": "Vendas",
+            "course_rating": 4.5,
+            "course_students": 124,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/WDUCK3zkEEY",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_83075.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/83075\/83075-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/83075\/83075-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/83075\/83075-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Noara Pozzer",
+                "teacher_description": "Noara Carina Pozzer Barbosa \u00e9 especialista em atendimento, marketing e vendas. Ao longo de sua carreira, Noara escreveu livros na \u00e1rea de marketing, consolidou-se como treinadora de equipes de alta performance e desenvolveu o m\u00e9todo de atendimento VIP.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/83075.jpg"
+            }
+        },
+        {
+            "course_id": 55884,
+            "course_company_id": 1,
+            "course_title": "Curso de An\u00e1lise de Candidato e Teste de Sele\u00e7\u00e3o na Pr\u00e1tica",
+            "course_description": "Explica sobre as importantes fases de um processo seletivo. Neste curso veremos um pouco sobre o que \u00e9 recrutamento e sele\u00e7\u00e3o, quais s\u00e3o os tipos de an\u00e1lises de candidatos, como um bom recrutador deve se portar, testes de sele\u00e7\u00e3o que devem ser aplicados e muito mais.\r\n\nSobre a carga hor\u00e1ria:\nO curso possui 80 horas de carga hor\u00e1ria. Por\u00e9m, se for conclu\u00eddo antes de 5 dias, passa a ter 10 horas de carga hor\u00e1ria. Conforme nosso contrato e termos de uso.",
+            "course_slug": "analise-de-candidato-e-teste-de-selecao-na-pratica",
+            "course_free": 0,
+            "course_format": 1,
+            "course_category_id": 24,
+            "course_category_slug": "recursos-humanos",
+            "course_category_title": "Recursos Humanos",
+            "course_rating": 4,
+            "course_students": 1254,
+            "course_captions": [
+                "pt",
+                "en",
+                "es",
+                "fr",
+                "zh"
+            ],
+            "course_hours": 80,
+            "course_video": "https:\/\/youtu.be\/Bs9YPZGk79Y",
+            "course_parent": 0,
+            "course_image": "https:\/\/www.iped.com.br\/img\/cursos\/m_55884.jpg",
+            "course_slideshow": [
+                "https:\/\/www.iped.com.br\/img\/cursos\/55884\/55884-1.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/55884\/55884-2.jpg",
+                "https:\/\/www.iped.com.br\/img\/cursos\/55884\/55884-3.jpg"
+            ],
+            "course_teacher": {
+                "teacher_name": "Luciene Pimentel",
+                "teacher_description": "Sou administradora e especialista em desenvolvimento de pessoas, possuo uma carreira desenvolvida nas \u00e1reas de Recursos Humanos e Administrativo em empresas de pequeno, m\u00e9dio e grande porte. Experi\u00eancia de mais de 10 anos com gest\u00e3o participativa, cria\u00e7\u00e3o e implanta\u00e7\u00e3o de procedimentos de RH e Administra\u00e7\u00e3o.\r\nNos \u00faltimos 10 anos atuei na gest\u00e3o de pessoas e processos, sendo respons\u00e1vel pela cria\u00e7\u00e3o, desenvolvimento e acompanhamento dos departamentos de Recursos Humanos e Administrativo em prestadoras de servi\u00e7os, p\u00fablica e Ind\u00fastria nos segmentos: comercial e de servi\u00e7os.\r\nPossuo experi\u00eancia na cria\u00e7\u00e3o de Projetos, inclusive Universidade Corporativa, facilitadora de workshops e multiplicadora de conhecimento de conhecimento em desenvolvimento organizacional.",
+                "teacher_image": "https:\/\/www.iped.com.br\/img\/professor\/55884.jpg"
+            }
+        }
+    ]
+}
