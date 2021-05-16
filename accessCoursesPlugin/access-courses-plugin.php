@@ -11,9 +11,6 @@
  * Text Domain: acesso_api_cursos
  */
 
-include_once 'include/head.php';
-
-
 if (!function_exists('add_action')) {
     echo _('O plugin não pode ser passado direto');
 }
@@ -23,7 +20,10 @@ require_once(dirname(__FILE__) . '/model/cursos.viewmodel.php');
 function shortCodeListaCursos()
 {
     $cursos = new Cursos();
+    $url_host = filter_input(INPUT_SERVER, 'HTTP_HOST');
+    define('pg', 'http://'.$url_host . '/eduAcademy'); // wp-content\plugins\accessCoursesPlugin/assets/css/bootstrap.min.css
 ?>
+    <link rel="stylesheet" href="<?php  echo pg . '/wp-content/plugins/accessCoursesPlugin/assets/css/bootstrap.min.css' ?>"/>
     <table class="table table-dark">
         <thead>
             <th>ID Curso</th>
@@ -47,7 +47,7 @@ function shortCodeListaCursos()
                         <form name="addCourse" method="POST">
                             <input type="hidden" name="courseTitle" value="<?php echo $key->course_title; ?>" />
                             <input type="hidden" name="courseDescription" value="<?php echo $key->course_description; ?>" />
-                            <input type="submit" name="addCourse" value="AdicionarCurso" />
+                            <input type="submit" name="addCourse" value="Adicionar Curso" />
                         </form>
                     </th>
                 </tr>
