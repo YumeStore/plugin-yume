@@ -38,7 +38,7 @@ function shortCodeListaCursos()
                     $cursos->insertCoursePost($dados_curso['courseTitle'], $dados_curso['courseDescription']);
                 }
 
-                foreach ($cursos->getCursos() as $key) {
+                foreach ($cursos->getAllCursos() as $key) {
                 ?>
                     <tr>
                         <th scope="row"><?php echo $key->course_id ?></th>

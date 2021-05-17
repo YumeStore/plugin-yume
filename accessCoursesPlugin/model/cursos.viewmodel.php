@@ -1,4 +1,5 @@
 <?php
+require_once(dirname(__FILE__) . '/../consumo-api/consumo-api.php');
 class Cursos
 {
     var $consumoApi;
@@ -8,11 +9,8 @@ class Cursos
         $this->consumoApi = new ConsumoApi('https://www.iped.com.br/', 'b6d5ee6c0bee8cb0e35a33e9677b45afc60d7eff');
     }
 
-    public function getCursos()
+    public function getAllCursos()
     {
-        require_once(dirname(__FILE__) . '/../consumo-api/consumo-api.php');
-
-        
         $retorno = $this->consumoApi->retornoListaCursos();
         $retorno_array = json_decode($retorno);
 
@@ -31,7 +29,7 @@ class Cursos
             'post_name' => 'novo-curso-wp',
             'post_type' => 'lp_course'
         );
-        
+
         wp_insert_post($my_post);
     }
 }
