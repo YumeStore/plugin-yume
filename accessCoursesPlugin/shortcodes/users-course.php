@@ -1,11 +1,12 @@
 <?php
 
-require_once(dirname(__FILE__) . '/model/cursos.viewmodel.php');
+require_once(dirname(__FILE__) . '/../model/cursos.viewmodel.php');
+require_once(dirname(__FILE__) . '/../infra/querys/user-course/userCourses.repository.php');
 
 function shortCodeListaCursos()
 {
     $cursos = new Cursos();
- ?>
+    ?>
     <link rel="stylesheet" href="<?php echo pg . '/wp-content/plugins/accessCoursesPlugin/assets/css/bootstrap.min.css' ?>" />
     <div class="content">
         <table class="table table-striped table-dark">
@@ -46,7 +47,10 @@ function shortCodeListaCursos()
 }
 
 function shortCodeIframe($atts)
-{
+{   
+    var_dump(get_the_ID());
+    var_dump(get_current_user_id());
+    
     $width = empty( $atts['width'] ) ? '90%' : $atts['width'];
     $height = empty( $atts['height'] ) ? '200' : $atts['height'];
 
@@ -54,11 +58,11 @@ function shortCodeIframe($atts)
     $retorno = $cursos->retornoIframeCurso(get_current_user_id(), get_the_ID()); 
 
     $iframe = "<iframe src=\"{$retorno->course_iframe_url}\" width=\"{$width}\" height=\"{$height}\"></iframe>"; 
-?>
-    <div class="content"></div>
-        <?php echo $iframe; ?> 
-    </div>
-<?php
+    ?>
+        <div class="content"></div>
+            <?php echo $iframe; ?> 
+        </div>
+    <?php
 }
 
 add_shortcode('cursos-lista', 'shortCodeListaCursos');

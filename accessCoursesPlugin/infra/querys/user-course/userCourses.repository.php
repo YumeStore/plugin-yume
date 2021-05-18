@@ -1,7 +1,7 @@
 <?php
 
-require_once 'tableEndPoints';
-require_once(dirname(__FILE__) . '/model/coursesUsers.model.php');
+require_once(dirname(__FILE__) . '/../../tableEndPoints.php');
+require_once(dirname(__FILE__) . '/../../../model/coursesUsers.model.php');
 
 class UserCourseRepository
 {

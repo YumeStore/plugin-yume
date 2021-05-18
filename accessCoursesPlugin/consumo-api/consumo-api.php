@@ -12,9 +12,9 @@ class ConsumoApi
         $this->token = $token;
     }
 
-    public function retornoListaCursos()
+    public function retornoListaCursos($nameFilter = "")
     {
-        $ch = curl_init("{$this->url}" . EndPoints::GetListaCursos ."?page=1&token={$this->token}");
+        $ch = curl_init("{$this->url}" . EndPoints::GetListaCursos ."?page=1&token={$this->token}&query={$nameFilter}");
 
         curl_setopt_array($ch, array(
             CURLOPT_RETURNTRANSFER => true,
