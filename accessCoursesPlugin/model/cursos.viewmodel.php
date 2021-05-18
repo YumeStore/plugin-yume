@@ -33,9 +33,12 @@ class Cursos
         wp_insert_post($my_post);
     }
 
-    public function retornoIframeCurso($user_id, $curso_id)
+    public function retornoIframeCurso($id_usuario_wp, $id_post)
     {
-        $retorno = $this->consumoApi->retornoIframeCurso($user_id, $curso_id);
+        $repo = new UserCourseRepository();
+        $retorno = $repo->consult_user_course($id_usuario_wp, $id_post);
+
+        $retorno = $this->consumoApi->retornoIframeCurso($retorno->id_aluno, $retorno->id_curso);
         $retorno_array = json_decode($retorno);
 
         return $retorno_array->ENVIRONMENT;
