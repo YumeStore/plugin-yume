@@ -13,7 +13,7 @@ class Cursos
     {
         $retorno = $this->consumoApi->retornoListaCursos();
         $retorno_array = json_decode($retorno);
-
+        
         return $retorno_array->COURSES;
     }
 
@@ -31,5 +31,13 @@ class Cursos
         );
 
         wp_insert_post($my_post);
+    }
+
+    public function retornoIframeCurso($user_id, $curso_id)
+    {
+        $retorno = $this->consumoApi->retornoIframeCurso($user_id, $curso_id);
+        $retorno_array = json_decode($retorno);
+
+        return $retorno_array->ENVIRONMENT;
     }
 }

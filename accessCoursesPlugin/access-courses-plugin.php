@@ -61,5 +61,43 @@ function shortCodeListaCursos()
 <?php
 }
 
-add_shortcode('lista-cursos', 'shortCodeListaCursos');
+function shortCodeIframe($atts)
+{
+    $width = empty( $atts['width'] ) ? '90%' : $atts['width'];
+    $height = empty( $atts['height'] ) ? '200' : $atts['height'];
+
+    $cursos = new Cursos();
+    $retorno = $cursos->retornoIframeCurso('6299133', '55387'); 
+
+    $iframe = "<iframe src=\"{$retorno->course_iframe_url}\" width=\"{$width}\" height=\"{$height}\"></iframe>"; 
+?>
+    <div class="content"></div>
+        <?php echo $iframe; ?> 
+    </div>
+<?php
+}
+
+add_shortcode('cursos-lista', 'shortCodeListaCursos');
+add_shortcode('cursos-iframe', 'shortCodeIframe');
+
+function acesso_api_cursos_activate() { 
+    // Verificar se o BD já foi criado.
+    global $wpdb;
+
+	$table_name = $wpdb->prefix . '_yume_cursos_aluno';
+	$charset_collate = $wpdb->get_charset_collate();
+    
+	$sql = "CREATE TABLE IF NOT EXISTS $table_name (
+		id mediumint(9) NOT NULL AUTO_INCREMENT,
+		text text NOT NULL,
+        id_aluno text NOT NULL,
+		PRIMARY KEY  (id)
+	) $charset_collate;";
+
+	require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+	dbDelta( $sql );
+}
+
+register_activation_hook( __FILE__, 'acesso_api_cursos_activate' );
+
 ?>
