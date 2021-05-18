@@ -6,6 +6,7 @@
         const GetCursosFinalizados = '/api/certificate/get-certificates';
         const GetCursosInProgress = '/api/course/get-inprogress';
         const GetEnvironment = '/api/course/get-environment';
+        const PostRegistration = '/api/user/set-registration';
     }
 
 ?>

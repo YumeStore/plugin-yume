@@ -50,13 +50,13 @@ class UserCourseRepository
 
         $sectionName   = "Modulo, {$courseName}";
 
-       $retornoId = $wpdb->query(
+        $wpdb->query(
             $wpdb->prepare($sql, $sectionName, $courseId, '2')
         );
 
-        var_dump($retornoId);
-        
-        $this->insert_lesson_section_item($lesonId, $retornoId);
+        $retornoId = $wpdb->get_results( "SELECT section_id FROM {$table_name} WHERE section_course_id = {$courseId}", OBJECT );
+
+        $this->insert_lesson_section_item($lesonId, $retornoId[0]->section_id);
     }
 
     /**

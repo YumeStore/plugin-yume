@@ -76,32 +76,51 @@ function shortCodeListaCursos()
  */
 function shortCodeIframe($atts)
 {
+    $cursos = new Cursos();
+    $course_user = filter_input(INPUT_POST, 'idUsuario', FILTER_SANITIZE_STRING);
+    $course_id = filter_input(INPUT_POST, 'idCurso', FILTER_SANITIZE_STRING);
+
+    if ($course_user) {
+        $dadosUsuario = get_userdata($course_user);
+        $cursoUsers = new CoursesUsersModel();
+        $courseRepo = new UserCourseRepository();
+
+        $cursoUsers->id_aluno = $cursos->retornoIdUsuarioMatricula('', $course_id, '', '')
+        $cursoUsers->id_course = $course_id; 
+        $cursoUsers->id_post = get_the_ID();
+        $cursoUsers->id_usuario_wp = $course_user;
+
+        $courseRepo->insert_user_course($cursoUsers);
+
+        // $cursos->insertCoursePost($curso);
+    }
+
+    $html = "";
     $width = empty($atts['width']) ? '90%' : $atts['width'];
     $height = empty($atts['height']) ? '200' : $atts['height'];
 
-    $cursos = new Cursos();
     $retorno = $cursos->retornoIframeCurso(get_current_user_id(), get_the_ID());
 
     if ($retorno) {
         $html = "<iframe src=\"{$retorno->course_iframe_url}\" width=\"{$width}\" height=\"{$height}\"></iframe>";
-    }else{
-        ?>
-            <div class="content">
-                <form action="matriculaCurso" method="post">
-                    <input type="hidden" name="idUsuario" value="<?php echo get_current_user_id() ?>">
-                    <input type="hidden" name="idCurso" value="<?php echo get_post_meta(get_the_ID(), 'id_course') ?>">
-                    <input type="submit" value="Iniciar Curso">
-                </form>
-            </div>
-        <?php
+    } else {
+    ?>
+        <div class="content">
+            <form name="matricularUsuario" method="post">
+                <input type="hidden" name="idUsuario" value="<?php echo get_current_user_id() ?>">
+                <input type="hidden" name="idCurso" value="<?php echo get_post_meta(get_the_ID(), 'id_course', true) ?>">
+                <input type="submit" id="matricularUsuario" value="Iniciar Curso">
+            </form>
+        </div>
+    <?php
     }
     ?>
-        <div class="content"></div>
+    <div class="content"></div>
         <?php
             echo $html;
         ?>
-        </div>
-    <?php
+    </div>
+<?php
 }
 
 add_shortcode('cursos-lista', 'shortCodeListaCursos');

@@ -50,15 +50,14 @@ class Cursos
        $post_id = wp_insert_post($my_post);
        $aula_id = $this->createLesson($curso);
 
-       var_dump($post_id);
-       var_dump($aula_id);
-        
-       $courseUserRepository->insert_lesson_section($curso->course_id, $curso->course_title, $aula_id);
+       $courseUserRepository->insert_lesson_section($post_id, $curso->course_title, $aula_id);
     }
 
+    /**
+     * Cria uma lesson.
+     */
     private function createLesson(CursosModel $curso)
     {
-
         $my_post = array(
             'post_title'    => "Aula, {$curso->course_title}",
             'post_content'  => '[cursos-iframe]',
@@ -66,7 +65,10 @@ class Cursos
             'post_author'   => get_current_user_id(),
             'comment_status' => 'closed',
             'post_name' => "aula-$curso->course_title",
-            'post_type' => 'lp_lesson'
+            'post_type' => 'lp_lesson',
+            'meta_input'   => array(
+                'id_course' => $curso->course_id,
+            ),
         );
 
        $post_id = wp_insert_post($my_post);
@@ -82,9 +84,24 @@ class Cursos
         $repo = new UserCourseRepository();
         $retorno = $repo->consult_user_course($id_usuario_wp, $id_post);
 
-        $retorno = $this->consumoApi->retornoIframeCurso($retorno[0]->id_aluno, $retorno[0]->id_course);
-        $retorno_array = json_decode($retorno);
+        if($retorno){ 
+            $retorno = $this->consumoApi->retornoIframeCurso($retorno[0]->id_aluno, $retorno[0]->id_course);
+            $retorno_array = json_decode($retorno);
 
-        return $retorno_array->ENVIRONMENT;
+            return $retorno_array->ENVIRONMENT;
+        }else{
+            return null;
+        }
     }
+
+    /**
+     * Retorna id usuario matricula.
+     */
+    public function retornoIdUsuarioMatricula($user_cpf, $curso_id, $user_name, $user_email ){
+        $retorno = $this->consumoApi->postRegistration($user_cpf, $curso_id, $user_name, $user_email);
+        $retorno_array = json_decode($retorno);
+        
+        return $retorno_array->REGISTRATION->user_id;
+    }
+
 }
