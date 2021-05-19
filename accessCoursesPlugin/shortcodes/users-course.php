@@ -80,19 +80,22 @@ function shortCodeIframe($atts)
     $course_user = filter_input(INPUT_POST, 'idUsuario', FILTER_SANITIZE_STRING);
     $course_id = filter_input(INPUT_POST, 'idCurso', FILTER_SANITIZE_STRING);
 
+    $dadosUsuario = get_userdata(get_current_user_id());
+    $cpf = get_user_meta(get_current_user_id(), 'nickname', true);
+
     if ($course_user) {
-        $dadosUsuario = get_userdata($course_user);
+        $dadosUsuario = get_userdata(get_current_user_id());
+        $cpf = get_user_meta(get_current_user_id(), 'nickname', true);
+        
         $cursoUsers = new CoursesUsersModel();
         $courseRepo = new UserCourseRepository();
 
-        $cursoUsers->id_aluno = $cursos->retornoIdUsuarioMatricula('', $course_id, '', '')
-        $cursoUsers->id_course = $course_id; 
+        $cursoUsers->id_aluno = $cursos->retornoIdUsuarioMatricula($cpf, $course_id, $dadosUsuario->display_name, $dadosUsuario->user_email);
+        $cursoUsers->id_course = $course_id;
         $cursoUsers->id_post = get_the_ID();
         $cursoUsers->id_usuario_wp = $course_user;
 
         $courseRepo->insert_user_course($cursoUsers);
-
-        // $cursos->insertCoursePost($curso);
     }
 
     $html = "";
@@ -116,9 +119,9 @@ function shortCodeIframe($atts)
     }
     ?>
     <div class="content"></div>
-        <?php
-            echo $html;
-        ?>
+    <?php
+    echo $html;
+    ?>
     </div>
 <?php
 }

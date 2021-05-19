@@ -31,13 +31,11 @@ class UserCourseRepository
         $table_name = $wpdb->prefix . TableEndPoints::TabelaUsersCourses;
 
         $sql = "INSERT INTO $table_name ('id_aluno_wp','id_aluno','id_curso','id_post') 
-                VALUES ($coursesUsers->id_usuario_wp 
-                        $coursesUsers->id_aluno, 
-                        $coursesUsers->id_course, 
-                        $coursesUsers->id_post)";
+                VALUES (%s, %s, %s, %s)";
 
-        require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
-        dbDelta($sql);
+        $wpdb->query(
+            $wpdb->prepare($sql, $coursesUsers->id_usuario_wp , $coursesUsers->id_aluno, $coursesUsers->id_course, $coursesUsers->id_post)
+        );
     }
 
     function insert_lesson_section($courseId, $courseName, $lesonId)
